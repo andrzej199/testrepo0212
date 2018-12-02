@@ -27,5 +27,8 @@ def word_stats2(filename, words):
         stats[word] += 1
     return stats
 
-# zmieniamy plik poprzez dodanie komentarza i sprawdzamy git
+# zmieniamy plik poprzez dodanie komentarza i sprawdzamy git (branch: th3feature)
 print(word_stats('/home/kodolamacz/Downloads/text_sample.txt', ["the", "off"]))
+
+print('hello world')
+# update z dwóch branch (teraz z master)
