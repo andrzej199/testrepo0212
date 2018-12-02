@@ -27,5 +27,5 @@ def word_stats2(filename, words):
         stats[word] += 1
     return stats
 
-
+# zmieniamy plik poprzez dodanie komentarza i sprawdzamy git
 print(word_stats('/home/kodolamacz/Downloads/text_sample.txt', ["the", "off"]))
